@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>This is a heading 1</h1>
+    <!-- tag ke andar class dia usko and styles sheet me usko access karne ke liye .css use kia because the class selectors are accessed through a dot while element selectors are directly accessed using element tag-->
+     <!-- class selectors have higher priority than element,class sel is more specific tha element se-->
+
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, autem.</p>
+    <h2>This is heading 2</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam error quod autem, doloribus explicabo mollitia blanditiis incidunt quae eius illum?</p>
+
+    <!-- id selector are accessed w hash,id selectors have higher priority than class sel-->
+     <!-- ek hee p ko id dia as well as class bhi dia toh the styles included in id will be applied to that p-->
+      <!-- id must be unique,we can give same id to two elements,won't give any error but is conventionally wrong-->
+
+    <p id="mypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero.</p>
+
+    <!-- element sel can select all the elements,class sel will select all the elements with same class name,id sel will only sel that specific element with that id(as ids are unique)-->
+
+    <p class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores praesentium iure odio quam atque laudantium.</p>
+    <h2 class="para">Hey</h2>
+    <p id="foo">Lorem ipsum dolor sit </p>
+
+    <!-- this p will not get color as its not a descendant of div-->
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+     <!-- sirf div ke andar wala p he change hoga not the one outside p as it is not a descendant of div-->
+     <div>
+        <h3>Hello there</h3>
+        <p>Sasha is studying.</p>
+        <section>
+             <p> Sasha </p> </section>
+     </div>
+    <!--complex-->
+     <section> 
+        <p> CSS </p>
+        <p> Coding
+            <div> Coding is imp
+                <p> Code daily</p>
+            </div>
+         </p>
+     </section>
+
+     <div id="bg-img">YOUR IMAGE
+
+     </div>
+
+</body>
+</html>

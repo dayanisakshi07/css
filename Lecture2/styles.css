@@ -1,0 +1,36 @@
+/* class selector */ 
+.para{
+    color:purple ;
+}
+
+/* element slector */
+p{ 
+    color:red;
+}
+
+/* id slector */ 
+#mypara{
+    color:blue;
+}
+/* element selector and class selector (choose all h2 with class para) */ 
+h2.para{ color: brown;
+    background-color: yellow;
+}
+/* element sel and id sel (choose p with id foo)*/ 
+p#foo{ 
+    background-color: green;
+}
+/* Descendant selector */ 
+/* div ke jitne bhi p hai*/
+div p{ background-color:white; 
+}
+/* Child selector(jo div ka direct child hoga sirf usko hee */ 
+div>p{ color: olivedrab;
+}
+
+#bg-img{
+    background-image: url('photo.jpg');
+    background-repeat: repeat-x;
+    height: 900px;
+    background-color:skyblue;
+}
