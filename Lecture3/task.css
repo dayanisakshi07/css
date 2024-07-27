@@ -1,0 +1,23 @@
+.doc{
+    color:white;
+    background-image:url(pic.jpg);
+    height:400px;
+    width:400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 5px solid brown;
+
+}
+.doc2{
+   padding:10px;
+   width:300px;
+   border: 5px solid brown;
+    margin: 20px;
+    background-color: pink;
+}
+.doc3{
+ background-color: lightsalmon;
+width:300px;
+margin:20px;
+border: 5px solid brown;
+}

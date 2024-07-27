@@ -1,0 +1,46 @@
+/* adjacent sibling selector */
+/* div ke ekdm baju wala p*/
+/* div + p{
+    color: blue;
+} /*
+
+/* general sib sel*/
+/* div ke niche sare p that share common parent*/
+div ~ p{
+    color:burlywood;
+}
+
+/* border */
+div{ 
+    border: 2px solid black;
+} 
+/* size me tune contain daala to tere height ke according wo aspect ratio decide karega and display krega */
+/* size me cover daala to image ko khichta jayega ie zoom karrte jayega (possibility of degrading the quality of image,hence make sure to use high quality img) to cover your whole screen */
+/* position is used for aligning the image either cover or contain, isme boht sare h center right left etc 
+
+agar im writing 100px 30px it aligns top edge and left edge ie origin ko ye parameters pe shift karega at the point of 100px from left and 30 px from top and thennwaha se wo image ko cintain ya cover karega */
+
+.bg{
+    background-image: url('google logo.png');
+    height: 400px;
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100px 30px;
+}
+
+ /* ye wala sirf body ko settings apply karega*/
+ body{
+margin:0;
+padding:0;
+border:4px solid pink;
+}
+
+
+/* asterisk will select all the elements of the page and apply these settings*/ 
+
+/* *{ margin:0;
+   padding:10px;
+   border:4px solid pink;
+}
+   */
